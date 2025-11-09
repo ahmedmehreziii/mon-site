@@ -717,3 +717,32 @@
     transform: translateY(5px);
   }
 }
+.detail-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.detail-item a:hover {
+  text-decoration: underline; /* optional: remove this line if you don’t want underline on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
